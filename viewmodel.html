@@ -1,0 +1,22 @@
+<div class="ms-Grid">
+    <div class="ms-Grid-row">
+        <div class="ms-u-lg12 ms-u-md12 ms-u-sm12 ms-Grid-col">
+            <component-textbox id="ca3dff20-c778-2884-7dbc-3a83dfdf2fcd" params="'InternalName':'Title','Title':'Task Name','Description':'','MaxLength':255,'DefaultValue':null,'FieldTypeKind':2,'ReadOnlyField':false,'Required':true" class=""></component-textbox>
+            <component-filebox id="92331684-dbd6-8759-0a21-65dbba266c97" params="'Filter':'','InternalName':'Attachments','Title':'Attachments','AllowMultipleValues':false,'Description':'','ReadOnlyField':false,'FieldTypeKind':19,'Required':false"
+            class=""></component-filebox>
+            <component-radiogroup id="69fd8b35-2d34-f56c-89fd-4cf01e819f7d" params="'InternalName':'Status','Title':'Task Status','Description':'','Required':false,'FieldTypeKind':6,'DefaultValue':'Not Started','Choices':['Not Started','In Progress','Completed','Deferred','Waiting on someone else']"
+            class=""></component-radiogroup>
+            <component-numberbox id="c136b2c2-c17b-cbab-c4a1-d76ffd38e534" params="'InternalName':'PercentComplete','Title':'% Complete','Description':'','MaximumValue':1,'MinimumValue':0,'DefaultValue':'0','ReadOnlyField':false,'FieldTypeKind':9,'Required':false"
+            class=""></component-numberbox>
+            <component-personabox id="c0190614-adcd-fba0-c520-d7d614462792" params="'InternalName':'AssignedTo','Title':'Assigned To','AllowMultipleValues':true,'Description':'','DefaultValue':null,'LookupField':'ImnName','LookupList':'{521ab2e5-51a4-4dd1-8f91-349a5e008cbd}','LookupWebId':'1dfc77bf-1292-4039-b691-f27413028c31','Presence':true,'SelectionGroup':0,'SelectionMode':1,'ReadOnlyField':false,'FieldTypeKind':20,'Color':'ms-Persona-initials--green','Required':false"
+            class=""></component-personabox>
+            <component-notebox id="7ea16075-bb0a-d180-dba3-cba93598db13" params="'InternalName':'Body','Title':'Description','Description':'','MaxLength':10000,'DefaultValue':null,'FieldTypeKind':3,'ReadOnlyField':false,'Required':false"
+            class=""></component-notebox>
+            <component-datetimebox id="abac82c3-2a42-23a1-736f-f502b38eeec1" params="'InternalName':'StartDate','Title':'Start Date','Description':'','DefaultValue':null,'ReadOnlyField':false,'DisplayFormat':0,'FriendlyDisplayFormat':2,'FieldTypeKind':4,'Required':false"
+            class=""></component-datetimebox>
+            <component-datetimebox id="eee82e41-268e-bc6f-454f-fdb1426cce6d" params="'InternalName':'DueDate','Title':'Due Date','Description':'','DefaultValue':null,'ReadOnlyField':false,'DisplayFormat':0,'FriendlyDisplayFormat':2,'FieldTypeKind':4,'Required':false"
+            class=""></component-datetimebox>
+            <component-buttons id="3f92292b-33aa-814d-78fe-f7e5f971a9bb" params="'visible':true,'closeonclick':true,'save':true,'submit':false,'cancel':true,'deletesubmitted':true,'moderation':'Draft','uniqueid':'Counter'" class=""></component-buttons>
+        </div>
+    </div>
+</div>
