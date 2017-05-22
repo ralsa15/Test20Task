@@ -1,7 +1,7 @@
 define([], function( ) { return  JSON.stringify(
 {
-	"localVersion": 1495477022934,
-	"serverVersion": 1495476958825,
+	"localVersion": 1495477880783,
+	"serverVersion": 1495477880783,
 	"components": [
 		{
 			"Title": "Task",
